@@ -6,7 +6,7 @@ class Forge < Formula
 
   on_arm do
     url "https://github.com/muhammadosama1/Forge/releases/tag/v1.0.0/forge-arm64.zip"
-    sha256 "e75f9cbfe498924bf389002972f9ce44dec0bd22a8e4c2592a05a295fec224ef"
+    sha256 "67ffb4252219457acf710caa0b259c15daefecc75527984e94fe846401c51217"
   end
 
   on_intel do
