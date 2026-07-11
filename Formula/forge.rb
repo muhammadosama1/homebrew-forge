@@ -23,3 +23,4 @@ class Forge < Formula
     system "#{bin}/forge", "--version"
   end
 end
+
