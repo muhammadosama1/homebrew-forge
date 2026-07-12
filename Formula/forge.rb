@@ -5,12 +5,12 @@ class Forge < Formula
   license "MIT"
 
   on_arm do
-    url "https://github.com/muhammadosama1/Forge/releases/tag/v1.0.0/forge-arm64.zip"
-    sha256 "67ffb4252219457acf710caa0b259c15daefecc75527984e94fe846401c51217"
+    url "https://github.com/muhammadosama1/Forge/releases/download/v1.0.0/forge-arm64.zip"
+    sha256 "e75f9cbfe498924bf389002972f9ce44dec0bd22a8e4c2592a05a295fec224ef"
   end
 
   on_intel do
-    url "https://github.com/muhammadosama1/Forge/releases/tag/v1.0.0/forge-x86_64.zip"
+    url "https://github.com/muhammadosama1/Forge/releases/download/v1.0.0/forge-x86_64.zip"
     sha256 "0be4059afa0c30b56d16ecf03749d88f0dba291acbfd4519a9971b59a031d64e"
   end
 
