@@ -6,12 +6,12 @@ class Forge < Formula
 
   on_arm do
     url "https://github.com/muhammadosama1/Forge/releases/download/v1.1.0/forge-arm64.zip"
-    sha256 "aa171af1e7993dcaa592f8835b186227fe1007740f662b142f57b9384d74849a"
+    sha256 "143b240071880aedb5d3624ca3dbbfbd5b9ab53bb610d623ead4d27bb41ce2b8"
   end
 
   on_intel do
     url "https://github.com/muhammadosama1/Forge/releases/download/v1.1.0/forge-x86_64.zip"
-    sha256 "40ae3c55739a2adde57c7f9169c5fe66e2df636fb0abf0a2fdc1faa99fcbefb0"
+    sha256 "0ad45b3113dc70391782d8b9a0391ad670c532cb37f62a50e512643a958e7d08"
   end
 
   def install
