@@ -1,17 +1,17 @@
 class Forge < Formula
   desc "Swift feature scaffolding CLI for MVVM, VIPER, VIP, MVP and TCA"
   homepage "https://github.com/muhammadosama1/Forge"
-  version "1.1.0"
+  version "1.1.1"
   license "MIT"
 
   on_arm do
-    url "https://github.com/muhammadosama1/Forge/releases/download/v1.1.0/forge-arm64.zip"
-    sha256 "143b240071880aedb5d3624ca3dbbfbd5b9ab53bb610d623ead4d27bb41ce2b8"
+    url "https://github.com/muhammadosama1/Forge/releases/download/v1.1.1/forge-arm64.zip"
+    sha256 "efb9bd3387b7eaed519ce6e9d5ea84bf912ffca444959d8c0b6fb94264af3e7c"
   end
 
   on_intel do
-    url "https://github.com/muhammadosama1/Forge/releases/download/v1.1.0/forge-x86_64.zip"
-    sha256 "0ad45b3113dc70391782d8b9a0391ad670c532cb37f62a50e512643a958e7d08"
+    url "https://github.com/muhammadosama1/Forge/releases/download/v1.1.1/forge-x86_64.zip"
+    sha256 "3b6e82a089bb81e2f0b0e53307f69a34c1559a1878ed5176e03d8e9543728f70"
   end
 
   def install
@@ -23,4 +23,3 @@ class Forge < Formula
     system "#{bin}/forge", "--version"
   end
 end
-
